@@ -1,13 +1,13 @@
-# Demand Prediction Model #
+## Demand Prediction Model ##
 
-## 1.Problem Statement - Build a demand prediction model using day level bike sharing data. ##
+### 1. Problem Statement - Build a demand prediction model using bike sharing data available for 2 years at daily level. ###
  Steps:-
 * Environment creation and data loading
 * Data Exploration and analysis, Data Visualisation 
 * Model training (Hyperparameter tuning)
 * Model Evaluation
 
-## 2. Process
+### 2. Process
 ### 2.1. Data
 - Bike Sharing dataset - https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset
 
