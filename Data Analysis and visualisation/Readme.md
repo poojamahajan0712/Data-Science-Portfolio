@@ -17,13 +17,14 @@
 * Data type correction
 * Visualising stroke along with other variables and understanding the relationships
 * Understanding distributions of independent variables.
+* using chi square to find relationship between categorical variables and target variable.
 
 ### 2.3 Outlier analysis, missing value handling
 * Finding outliers using boxplots(IQR) and handling 
 * Finding missing values and handling
 
 ### 2.4 Finding good predictors using feature selection methods  
-* Quantising relationship of independent variables with target variable using chi square,IV and WOE
+* Quantising relationship of independent variables with target variable using IV and WOE
 
 
 
