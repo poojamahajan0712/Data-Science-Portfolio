@@ -1,8 +1,8 @@
-## Stroke Data Analysis ##
+## Stroke Data Analysis and Visualisation ## 
 
 ### 1. Problem Statement - Analysing stroke dataset available and finding relationships among variables with stroke  ###
  Steps:-
-* Data Exploration and analysis, Data Visualisation
+* Data Exploration and analysis, Data Visualisation (using seaborn library - bar charts, histogram, etc.)
 * Outlier analysis and missing value handling
 * Finding good predictors using feature selection method 
 * Conclusion and Next steps 
