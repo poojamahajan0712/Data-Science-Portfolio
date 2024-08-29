@@ -11,7 +11,7 @@
 ### 2.1. Data
 - Corn Disease Detection -  https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset
 
-### 2.2. Data Visualisation, exploration and prep for modeling
+### 2.2. Data exploration and preparation for modeling
 * checking counts of all the classes present in the data.
 * Loading data using tensorflow functions into train and val sets, converting to batches
 * Visualising data and understanding the nuances( diff sizes, quality,etc.)
