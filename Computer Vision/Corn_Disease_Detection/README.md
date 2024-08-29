@@ -1,6 +1,6 @@
 ## Corn Disease Detection ##
 
-### 1. Problem Statement - Build an image classifier for corn diseases(Blight,Common_Rust,Gray_Leaf_Spot and Healthy). ###
+### 1. Problem Statement - Build an image classifier for corn diseases (Blight,Common_Rust,Gray_Leaf_Spot and Healthy). ###
  Steps:-
 * Data loading 
 * Data Visualisation, exploration, data preparation for modeling
