@@ -1,6 +1,6 @@
 ## Corn Disease Detection ##
 
-### 1. Problem Statement - Build an image classifier for corn diseases. ###
+### 1. Problem Statement - Build an image classifier for corn diseases(Blight,Common_Rust,Gray_Leaf_Spot and Healthy). ###
  Steps:-
 * Data loading 
 * Data Visualisation, exploration, data preparation for modeling
@@ -12,6 +12,7 @@
 - Corn Disease Detection -  https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset
 
 ### 2.2. Data Visualisation, exploration and prep for modeling
+* checking counts of all the classes present in the data.
 * Loading data using tensorflow functions into train and val sets, converting to batches
 * Visualising data and understanding the nuances( diff sizes, quality,etc.)
 * Investing the raw format of data and applying necessary fucntions to normalise it as required for model building.
