@@ -3,10 +3,10 @@ from tensorflow.keras.layers import LSTM, Input, Dense, Embedding, TimeDistribut
 from tensorflow.keras.models import Model
 import numpy as np
 
-def translation_model(max_length_english,vocab_size_source,vocab_size_target):
+def translation_model(max_length_english,vocab_size_source,vocab_size_target,latent_dim=100):
     K.clear_session()
 
-    latent_dim = 100  # Dimensionality of the latent space
+    # latent_dim = 100  # Dimensionality of the latent space
 
     # Encoder
     encoder_inputs = Input(shape=(max_length_english,))
