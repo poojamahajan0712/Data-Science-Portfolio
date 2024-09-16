@@ -6,11 +6,11 @@ import numpy as np
 def translation_model(max_length_english,vocab_size_source,vocab_size_target,latent_dim=100):
     K.clear_session()
 
-    # latent_dim = 100  # Dimensionality of the latent space
+    embed_dim = 50  # Dimensionality of the latent space
 
     # Encoder
     encoder_inputs = Input(shape=(max_length_english,))
-    enc_emb = Embedding(vocab_size_source, 50, trainable=True)(encoder_inputs)
+    enc_emb = Embedding(vocab_size_source, embed_dim, trainable=True)(encoder_inputs)
     ## embedding layer takes max vocab length of english as input and latent_dim refers to output of embedding
 
     # LSTM 1
@@ -28,7 +28,7 @@ def translation_model(max_length_english,vocab_size_source,vocab_size_target,lat
 
     # Set up the decoder.
     decoder_inputs = Input(shape=(None,))
-    dec_emb_layer = Embedding(vocab_size_target, 50, trainable=True)
+    dec_emb_layer = Embedding(vocab_size_target, embed_dim, trainable=True)
     dec_emb = dec_emb_layer(decoder_inputs)
 
     # LSTM using encoder_states as initial state
@@ -50,7 +50,7 @@ def translation_model(max_length_english,vocab_size_source,vocab_size_target,lat
     return Model([encoder_inputs, decoder_inputs], decoder_outputs)
 
 
-def decoder_inference(model_loaded,latent_dim):
+def decoder_inference(model_loaded,latent_dim,max_length_english):
 
     # latent_dim=50
     # encoder inference
@@ -65,7 +65,7 @@ def decoder_inference(model_loaded,latent_dim):
     # Below tensors will hold the states of the previous time step
     decoder_state_input_h = Input(shape=(latent_dim,))
     decoder_state_input_c = Input(shape=(latent_dim,))
-    decoder_hidden_state_input = Input(shape=(53,latent_dim))
+    decoder_hidden_state_input = Input(shape=(max_length_english,latent_dim))
 
     # Get the embeddings of the decoder sequence
     decoder_inputs = model_loaded.layers[3].output
