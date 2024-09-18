@@ -15,7 +15,7 @@ Using tensorflow
 * checking counts of all the classes present in the data.
 * Loading data using tensorflow functions into train and val sets, converting to batches
 * Visualising data and understanding the nuances( diff sizes, quality,etc.)
-* Investing the raw format of data and applying necessary fucntions to normalise it as required for model building.
+* Investigating the raw format of data and applying necessary fucntions to normalise it as required for model building.
 
 ### 2.3 Model training and Evaluation
 * Model 1 - Using convolutional layers, max pool, dense layers
