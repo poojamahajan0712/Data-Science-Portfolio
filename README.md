@@ -5,7 +5,7 @@
 ****
 ### Deep Learning 
 #### Computer Vision
-[Corn Disease Detection](https://github.com/poojamahajan0712/Data-Science-Portfolio/tree/main/Computer%20Vision/Corn_Disease_Detection) Image classifier for corn disease detection.CNN based models(using tensorflow framework) using two approaches a) model from scratch b) model using transfer learning.
+[Corn Disease Detection](https://github.com/poojamahajan0712/Data-Science-Portfolio/tree/main/Computer%20Vision/Corn_Disease_Detection) Image classifier for corn disease detection.CNN based models(using tensorflow framework) using two approaches a) model from scratch b) model using transfer learning.<br>
 [Hair Style Classification](https://github.com/poojamahajan0712/Data-Science-Portfolio/tree/main/Computer%20Vision/Hair%20Style%20Classification) CNN based Image classifier using pytorch framework to classify hair styles.
 
 #### Natural Language Processing <br>
