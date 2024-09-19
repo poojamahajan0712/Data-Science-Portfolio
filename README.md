@@ -10,5 +10,5 @@
 
 ### Machine learning (Structured data)
 #### Regression
-[Bike Demand Prediction](https://github.com/poojamahajan0712/Data-Science-Portfolio/tree/main/Regression/BikeRentalDemandPrediction)Demand prediction model using bike sharing data, to predict demand at daily level.
+[Bike Demand Prediction](https://github.com/poojamahajan0712/Data-Science-Portfolio/tree/main/Regression/BikeRentalDemandPrediction) Demand prediction model using bike sharing data, to predict number of rentals required at daily level.
 
