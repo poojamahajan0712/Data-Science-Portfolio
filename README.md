@@ -10,7 +10,7 @@
 
 #### Natural Language Processing <br>
 [Machine Translation](https://github.com/poojamahajan0712/Data-Science-Portfolio/tree/main/Natural%20Language%20Processing/English%20to%20French%20Translator) Deep learning based seq2seq model(encoder decoder architecture with attention) to translate from english to French.
-
+****
 ### Data Analysis and Visualisation
 [Stroke Data Analysis](https://github.com/poojamahajan0712/Data-Science-Portfolio/tree/main/Data%20Analysis%20and%20visualisation) Exploratory data analysis of medical domain dataset- stroke dataset, visualising features and finding their relationship in correspondence to stroke. Discovering key features impacting chances of getting stroke with statistical methods.
 
